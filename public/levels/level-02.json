@@ -1,0 +1,34 @@
+{
+  "id": 2,
+  "type": "order",
+  "title": "if 条件判断",
+  "description": "按正确顺序吃掉 if 条件判断的代码节点。",
+  "speed": 230,
+  "lives": 3,
+  "distractorCount": 3,
+  "initialSnakeLength": 4,
+  "obstacleCount": 3,
+  "difficulty": 2,
+  "correctOrder": [
+    "if",
+    "score>10",
+    "{",
+    "win",
+    "()"
+  ],
+  "codeTemplate": "{1} ({2}) {3}\n  {4}{5};\n}",
+  "distractors": [
+    "else",
+    "for",
+    "score<10",
+    "while",
+    "return",
+    "break",
+    "true",
+    "false",
+    "==",
+    "&&",
+    "||"
+  ],
+  "explanation": "if 语句用于条件判断：if (条件) { 执行语句 }。当 score 大于 10 时，调用 win() 函数。"
+}

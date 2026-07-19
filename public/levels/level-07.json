@@ -1,0 +1,37 @@
+{
+  "id": 7,
+  "type": "order",
+  "title": "数组追加",
+  "description": "按正确顺序吃掉向数组追加元素的代码节点。",
+  "speed": 130,
+  "lives": 5,
+  "distractorCount": 4,
+  "initialSnakeLength": 8,
+  "obstacleCount": 11,
+  "difficulty": 7,
+  "powerUps": ["SHIELD", "INVINCIBLE", "SHOT", "HEALTH"],
+  "correctOrder": [
+    "const list",
+    "=",
+    "[]",
+    "list",
+    ".push",
+    "(item)"
+  ],
+  "codeTemplate": "{1} {2} {3};\n{4}{5}{6};",
+  "distractors": [
+    "{}",
+    ".pop",
+    "(index)",
+    "array",
+    ".map",
+    ".filter",
+    ".shift",
+    ".length",
+    "return",
+    "items",
+    "Set",
+    "[item]"
+  ],
+  "explanation": "数组 push 方法会把新元素追加到数组末尾，常用于收集数据。"
+}
